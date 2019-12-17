@@ -1,15 +1,28 @@
 # ntt-validator-form-mvc-test
 
 
-## Maven dependency :  
-##### < dependency >   
-##### < groupId >com.nttdata.validator.form</ groupId >  
-##### < artifactId >nttdata-validator-form-mvc</ artifactId >  
-##### < version >1.0.0</ version >
-##### </ dependency >  
 
+## Usage
 
-## Use it:
+The module is an extension of [maven-external-version](https://github.com/bdemers/maven-external-version), add to your pom something like the following:   
+
+```
+<dependencies>
+    
+    .....
+
+    <dependency>
+        <groupId>com.nttdata.validator.form</groupId>
+        <artifactId>nttdata-validator-form-mvc</artifactId>
+        <version>1.0.0</version>
+    </dependency>
+   
+    .....
+           
+</dependencies>
+```
+
+## Annotation
 
 Class: UserRegistrationDto  
 
