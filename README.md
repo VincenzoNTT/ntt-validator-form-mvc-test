@@ -4,7 +4,7 @@
 
 ## Usage
 
-The module is an extension of [maven-external-version](https://github.com/bdemers/maven-external-version), add to your pom something like the following:   
+Aggiungere al pom.xml il riferimento :  
 
 ```
 <dependencies>
